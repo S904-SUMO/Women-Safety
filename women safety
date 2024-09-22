@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Safety</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Women Safety Initiative</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tips">Safety Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="main-section">
+        <h2>Welcome to Women Safety</h2>
+        <p>This platform is dedicated to promoting safety and security for women. Stay informed, stay safe.</p>
+        <button onclick="triggerEmergency()">Emergency Help</button>
+    </section>
+
+    <section id="tips" class="main-section">
+        <h2>Safety Tips</h2>
+        <ul>
+            <li>Always be aware of your surroundings.</li>
+            <li>Trust your instincts – if something feels wrong, act on it.</li>
+            <li>Carry a self-defense tool such as pepper spray.</li>
+            <li>Share your location with trusted contacts when traveling alone.</li>
+            <li>Use apps or services designed for women’s safety, such as SOS or emergency alert apps.</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="main-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need support, feel free to contact us:</p>
+        <p>Email: support@womensafety.com</p>
+        <p>Phone: +1 123-456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Women Safety Initiative. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
